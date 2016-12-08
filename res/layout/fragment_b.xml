@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fffff5eb"
+    android:layout_width="fill_parent">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <kankan.wheel.widget.WheelView android:id="@+id/slot_coffee"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/status_coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#f2a348"
+        android:text=""/>
+
+    <Button android:id="@+id/btn_mix_coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="커피 정하기!"/>
+
+</LinearLayout>

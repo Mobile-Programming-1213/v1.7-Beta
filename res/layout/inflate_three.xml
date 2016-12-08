@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="152dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="오늘 뭐마시지?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor= "#ff000000"
+            android:id="@+id/randomgen"
+            android:background="@drawable/ic_button_big"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="공지사항"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor= "#ff000000"
+            android:id="@+id/notice"
+            android:background="@drawable/ic_button_big"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:text="문의하기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor= "#ff000000"
+            android:background="@drawable/ic_button_big"
+            android:layout_weight="1"
+            android:id="@+id/ask" />
+        <Button
+            android:text="개발자들"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor= "#ff000000"
+            android:background="@drawable/ic_button_big"
+            android:layout_weight="1"
+            android:id="@+id/developers" />
+
+    </LinearLayout>
+</RelativeLayout>
